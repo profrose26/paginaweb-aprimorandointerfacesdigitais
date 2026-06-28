@@ -19,7 +19,7 @@ body{
 }
 header {
      background-color: var(--cor-primaria);
-     color: var(--cor-contraste);#FFFFFF;
+     color: var(--cor-contraste);
      text-align: center;
      margin: 0 auto;
      padding: 16px;
@@ -28,10 +28,9 @@ header {
 
  main {
      background-color: var(--cor-fundo);
-     color: var(--cor-primaria);
+     color: var(--cor-texto);
      margin: 0 auto;
      padding: 16px;
-
      display: flex;
      flex-wrap: wrap;
  }
@@ -39,20 +38,17 @@ header {
 
  article {
      display: flex;
-
      border: 1px solid var(--cor-primaria);
-
      margin: 16px;
      gap: 16px;
      padding: 16px;
-
      flex: 1 1 25%;
      flex-direction: column;
      align-items: center;
      text-align: center;
      justify-content: center;
+     background-color: var(--cor-fundo);
  }
-
 
  img {
      width: 80px;
